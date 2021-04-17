@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    div{
+    color: green;
+    }
+
+.navigation{
+    background-color: black;
+    }
+    .navigation li{
+    display: inline-block;
+    }
+    .navigation li a{
+    font-size:20px;
+    color: teal;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: 5px solid teal;
+    border-radius: 40px;
+    transition: 0.8s;
+    }
+    
+    .navigation li a:hover{
+    color: red;
+    font-size: 24px;
+    transition: 0.8s;
+    transform: scale(0.7);
+    }
+    .banner{
+        margin: top 100%;;
+        text-align: center;
+    
+        color:cornsilk
+    }
