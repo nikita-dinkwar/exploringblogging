@@ -1,5 +1,5 @@
 *{
-     margin:0;;
+     margin:0;
     padding: 0;
     }
     .navbar{
@@ -9,7 +9,8 @@
         width:100%
     }
     .navigation{
-    background-color:black; 
+    background-color:black;
+    padding: 20px; 
     }
     .navigation li{
     display: inline-block;
@@ -88,21 +89,24 @@ inherited from div.section_intro_main.section_intro_main.section_intro_main.intr
     color:red;
     font-size: 50px;
     text-align: center;
-    background-image: url('../images/marigold.jpg');
-    border: 4px solid #000;
+    border: 7px solid #000;
     margin-top:20px; 
     padding: 20px;
     height: 400px;
-    width: 200px;
+    width: 24%;
     display:inline-block;
     vertical-align: middle;
-    
+    background-image:url(../images/foods.jpg);
+    background-size: cover;
     
     /* opacity: 0.5; */
     box-shadow: 1px 1px 4px #000;
     font-weight: bold;
     }
-    
+    .box1 a{
+    color: red;
+
+    }
     .box1:hover{
     transform: scale(0.8);
     transition:o.7;
@@ -111,15 +115,16 @@ inherited from div.section_intro_main.section_intro_main.section_intro_main.intr
         color:red;
         font-size: 50px;
         text-align: center;
-        background-image: url('../images/marigold.jpg');
-        border: 4px solid #000;
+        background-image: url(../images/beach.jpg);
+        background-size: cover;
+        border: 7px solid #000;
         margin-top:20px; 
         padding: 20px;
         height: 400px;
-        width: 200px;
+        width: 20%;
         display: inline-block;
         vertical-align: middle;
-        overflow: scroll;
+        
         /* opacity: 0.5; */
         box-shadow: 1px 1px 4px #000;
         font-weight: bold;
@@ -134,19 +139,23 @@ inherited from div.section_intro_main.section_intro_main.section_intro_main.intr
             color:red;
             font-size: 50px;
             text-align: center;
-            background-image: url('../images/marigold.jpg');
-            border: 4px solid #000;
+            background-image: url(../images/cul.jpg);
+            background-size: cover;
+            border: 7px solid #000;
             margin-top:20px; 
             padding: 20px;
             height: 400px;
-            width: 200px;
+            width: 20%;
             display: inline-block;
             vertical-align: middle;
-            overflow: scroll;
+            
             /* opacity: 0.5; */
             box-shadow: 1px 1px 4px #000;
             font-weight: bold;
             }
+            .box3 a{
+                color: red;
+            } 
             
             .box3:hover{
             transform: scale(0.8);
@@ -156,15 +165,16 @@ inherited from div.section_intro_main.section_intro_main.section_intro_main.intr
                     color:red;
                     font-size: 50px;
                     text-align: center;
-                    background-image: url('../images/marigold.jpg');
-                    border: 4px solid #000;
+                    background-image: url(../images/trek.jpg);
+                    background-size: cover;
+                    border: 7px solid #000;
                     margin-top:20px; 
                     padding: 20px;
                     height: 400px;
-                    width: 200px;
+                    width: 20%;
                     display: inline-block;
                     vertical-align:middle;
-                    overflow: scroll;
+                    
                     /* opacity: 0.5; */
                     box-shadow: 1px 1px 4px #000;
                     font-weight: bold;
@@ -174,9 +184,561 @@ inherited from div.section_intro_main.section_intro_main.section_intro_main.intr
                    transform: scale(0.8);
                    transition: 0.7s;
                 }
+.banner  .img1{
+    background-image: url(../images/land\ home.jpg);
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
 
 
 
+.banner{
+    background-image:url(../images/leh.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 1000px;
+}
 
+.section{
+margin-top: 10px;
+text-emphasis-position: center;
+font-size: 100px;
+font-weight: 900;
+font-style:italic;
+font-display: center;
+text-align: center;
+color:ivory;
+} 
 
+.banner1{
+    background-image: url(../images/vegetables.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 1000px;
+}
 
+.section1{
+    margin-top: 10px;
+    text-emphasis-position: center;
+    font-size: 100px;
+    font-weight: 900;
+    font-style:italic;
+    font-display: center;
+    text-align: center;
+    color:darkblue;
+} 
+#bestfoodsthatyoumusttasteinladakh{
+   color:red;
+   font-size:100px;
+}
+.bold1{
+    font-weight: 900;
+    color:cornsilk;
+    background-color: black; 
+    display:inline-block ;
+    width: 49%;
+    vertical-align: top;
+    margin-top: 30px;
+}
+.box5{
+    background-image: url(../images/THUKPA.jpg);
+    align-content: center;
+    border: 7px solid #000;
+    margin-top:20px; 
+    padding: 20px;
+    height: 490px;
+    width:45% ;
+    display:inline-block;
+    vertical-align: top;
+    
+    /*opacity: 0.5;*/ 
+    box-shadow: 1px 1px 4px #000;
+    font-weight: bold;
+    }
+
+    .box6{
+        background-image: url(../images/Khambir\ \(1\).jpg);
+        align-content: center;
+        border: 7px solid #000;
+        margin-top:20px; 
+        padding: 30px;
+        height: 390px;
+        width:45% ;
+        display:inline-block;
+    vertical-align: top;
+        
+        /*opacity: 0.5;*/ 
+        box-shadow: 1px 1px 4px #000;
+        font-weight: bold;
+        }
+.box7{
+    background-image: url(../images/TIGMO.jpg);
+    align-content: center;
+    border: 7px solid #000;
+    margin-top:20px; 
+    padding: 20px;
+    height: 490px;
+    width:45% ;
+    display:inline-block;
+    vertical-align: top;
+    
+    /*opacity: 0.5;*/ 
+    box-shadow: 1px 1px 4px #000;
+    font-weight: bold;
+}
+.box8{
+    background-image: url(../images/MOMOS.jpg);
+    align-content: center;
+    border: 7px solid #000;
+    margin-top:20px; 
+    padding: 20px;
+    height: 490px;
+    width:45% ;
+    display:inline-block;
+    vertical-align: top;
+    
+    /*opacity: 0.5;*/ 
+    box-shadow: 1px 1px 4px #000;
+    font-weight: bold;
+}
+.box9{
+    background-image: url(../images/mokthuk.jpg);
+    align-content: center;
+    border: 7px solid #000;
+    margin-top:20px; 
+    padding: 20px;
+    height: 500px;
+    width:43% ;
+    display:inline-block;
+    vertical-align: top;
+    
+    /*opacity: 0.5;*/ 
+    box-shadow: 1px 1px 4px #000;
+    font-weight: bold;
+}
+.box10{
+    background-image: url(../images/skyu\ 1.jpg);
+    align-content: center;
+    border: 7px solid #000;
+    margin-top:20px; 
+    padding: 20px;
+    height: 500px;
+    width:45% ;
+    display:inline-block;
+    vertical-align: top;
+    
+    /*opacity: 0.5;*/ 
+    box-shadow: 1px 1px 4px #000;
+    font-weight: bold;
+}
+.box11{
+    background-image: url(../images/YAK\ CHEESE.jpg);
+    align-content: center;
+    border: 7px solid #000;
+    margin-top:20px; 
+    padding: 20px;
+    height: 490px;
+    width:45% ;
+    display:inline-block;
+    vertical-align: top;
+    
+    /*opacity: 0.5;*/ 
+    box-shadow: 1px 1px 4px #000;
+    font-weight: bold;
+}
+.box12{
+    background-image: url(../images/Paba-AND-Tangtur.jpg);
+    align-content: center;
+    border: 7px solid #000;
+    margin-top:20px; 
+    padding: 20px;
+    height: 490px;
+    width:45% ;
+    display:inline-block;
+    vertical-align: top;
+    
+    /*opacity: 0.5;*/ 
+    box-shadow: 1px 1px 4px #000;
+    font-weight: bold;
+}
+
+.banner2{
+    background-image: url(../images/culture1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 800px;
+}
+.section2{
+    margin-top: 10px;
+    text-emphasis-position: center;
+    font-size: 100px;
+    font-weight: 900;
+    font-style:italic;
+    font-display: center;
+    text-align: center;
+    color:green;
+} 
+#culture{
+    color:red;
+    font-size:100px;
+ }
+ .bold2{
+     font-weight: 900;
+     color:cornsilk;
+     background-color: black; 
+ }
+ .box13{
+    color:red;
+    font-size: 50px;
+    text-align: center;
+    border: 7px solid #000;
+    margin-top:20px; 
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 20px;
+    padding: 40px;
+    height: 500px;
+    width: 24%;
+    display:inline-block;
+    vertical-align: middle;
+    background-image:url(../images/LADAKH\ CUL.jpg);
+    background-size: cover
+    }
+    .box14{
+        color:red;
+        font-size: 50px;
+        text-align: center;
+        border: 7px solid #000;
+        margin-top:20px; 
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 40px;
+        height: 500px;
+        width: 24%;
+        display:inline-block;
+        vertical-align: middle;
+        background-image:url(../images/ATTIRE.jpg);
+        background-size: cover
+        }
+        .box15{
+            color:red;
+            font-size: 50px;
+            text-align: center;
+            border: 7px solid #000;
+            margin-top:20px; 
+            margin-bottom: 20px;
+            margin-left: 20px;
+            margin-right: 30px;
+            padding: 40px;
+            height: 500px;
+            width: 24%;
+            display:inline-block;
+            vertical-align: middle;
+            background-image:url(../images/DANCE.jpg);
+            background-size: cover
+            }
+    
+            .box16{
+                color:red;
+                font-size: 50px;
+                text-align: center;
+                border: 7px solid #000;
+                margin-top:20px; 
+                margin-bottom: 20px;
+                margin-left: 30px;
+                margin-right: 20px;
+                padding: 40px;
+                height: 500px;
+                width: 24%;
+                display:inline-block;
+                vertical-align: middle;
+                background-image:url(../images/ART.jpg);
+                background-size: cover
+                }
+                .box17{
+                    color:red;
+                    font-size: 50px;
+                    text-align: center;
+                    border: 7px solid #000;
+                    margin-top:20px; 
+                    margin-bottom: 20px;
+                    margin-left: 20px;
+                    margin-right: 20px;
+                    padding: 40px;
+                    height: 500px;
+                    width: 24%;
+                    display:inline-block;
+                    vertical-align: middle;
+                    background-image:url(../images/FESTIVAL.jpg);
+                    background-size: cover;
+                    }
+                    .box18{
+                        color:red;
+                        font-size: 50px;
+                        text-align: center;
+                        border: 7px solid #000;
+                        margin-top:20px; 
+                        margin-bottom: 20px;
+                        margin-left: 20px;
+                        margin-right: 30px;
+                        padding: 40px;
+                        height: 500px;
+                        width: 24%;
+                        display:inline-block;
+                        vertical-align: middle;
+                        background-image:url(../images/WOMAN.jpg);
+                        background-size: cover;
+                        
+                    }
+.banner3{
+ background-image: url(../images/leaf.jpg);
+ background-position: center;
+ background-size: cover;
+ position: relative;
+ height: 800px;
+}
+.section3{
+    margin-top: 10px;
+    text-emphasis-position: center;
+    font-size: 100px;
+    font-weight: 900;
+    font-style:italic;
+    font-display: center;
+    text-align: center;
+    color:black;
+}
+#beautifullakesofladakh{
+    color:black;
+    font-size:100px;
+ }
+ .bold3{
+     font-weight: 900;
+     color:cornsilk;
+     background-color: black; 
+ }
+ .box19{
+    color:red;
+    font-size: 50px;
+    text-align: center;
+    border: 7px solid #000;
+    margin-top:20px; 
+    margin-bottom: 20px;
+    padding: 40px;
+    height: 500px;
+    width: 100%;
+    display:center;
+    vertical-align: middle;
+    background-image:url(../images/pongong\ lake.jpg);
+    background-size: 100% 100%;
+ }
+ .box20{
+    color:red;
+    font-size: 50px;
+    text-align: center;
+    border: 7px solid #000;
+    margin-top:20px; 
+    margin-bottom: 20px;
+    padding: 40px;
+    height: 500px;
+    width: 100%;
+    display:center;
+    vertical-align: middle;
+    background-image:url(../images/TSO\ MORIRI\ LAKE.jpg);
+    background-size: 100% 100%;
+ }
+ .box21{
+    color:red;
+    font-size: 50px;
+    text-align: center;
+    border: 7px solid #000;
+    margin-top:20px; 
+    margin-bottom: 20px;
+    padding: 40px;
+    height: 500px;
+    width: 100%;
+    display:center;
+    vertical-align: middle;
+    background-image:url(../images/TSO\ KAR\ LAKE.jpg);
+    background-size: 100% 100%;
+ }
+ .box22{
+    color:red;
+    font-size: 50px;
+    text-align: center;
+    border: 7px solid #000;
+    margin-top:20px; 
+    margin-bottom: 20px;
+    padding: 40px;
+    height: 500px;
+    width: 100%;
+    display:center;
+    vertical-align: middle;
+    background-image:url(../images/NYAK\ TSO\ LAKE.jpg);
+    background-size: 100% 100%;
+ }
+ .box23{
+    color:red;
+    font-size: 50px;
+    text-align: center;
+    border: 7px solid #000;
+    margin-top:20px; 
+    margin-bottom: 20px;
+    padding: 40px;
+    height: 500px;
+    width: 100%;
+    display:center;
+    vertical-align: middle;
+    background-image:url(../images/MIRPAL\ TSO\ LAKE.jpg);
+ background-size: 100% 100%;
+ }
+ .box24{
+    color:red;
+    font-size: 50px;
+    text-align: center;
+    border: 7px solid #000;
+    margin-top:20px; 
+    margin-bottom: 20px;
+    padding: 40px;
+    height: 500px;
+    width: 100%;
+    display:center;
+    vertical-align: middle;
+    background-image:url(../images/LANG\ TSO\ LAKE.jpg);
+    background-size: 100% 100%;
+ }
+ .banner4{
+    background-image: url(../images/NIGHT\ TREK.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 800px;
+   }
+   .section4{
+    margin-top: 10px;
+    text-emphasis-position: center;
+    font-size: 100px;
+    font-weight: 900;
+    font-style:italic;
+    font-display: center;
+    text-align: center;
+    color:yellow;
+}
+#placestovisitandtrek{
+    color:red;
+    font-size:100px;
+ }
+ .bold4{
+     font-weight: 900;
+     color:cornsilk;
+     background-color: black; 
+ }
+ .box25{
+    color:red;
+    font-size: 50px;
+    text-align: center;
+    border: 7px solid #000;
+    margin-top:20px; 
+    margin-bottom: 20px;
+    margin-left: 420px;
+    margin-right: 30px;
+    padding: 40px;
+    height: 500px;
+    width: 45%;
+    display:center;
+    vertical-align: middle;
+    background-image:url(../images/thiksey\ monastery.jpg);
+    background-size: cover;
+ }
+ .box26{
+    color:red;
+    font-size: 50px;
+    text-align: center;
+    border: 7px solid #000;
+    margin-top:20px; 
+    margin-bottom: 20px;
+    margin-left: 420px;
+    margin-right: 30px;
+    padding: 40px;
+    height: 500px;
+    width: 45%;
+    display:center;
+    vertical-align: middle;
+    background-image:url(../images/diskit\ monastery.jpg);
+    background-size: cover;
+ }
+ .box27{
+    color:red;
+    font-size: 50px;
+    text-align: center;
+    border: 7px solid #000;
+    margin-top:20px; 
+    margin-bottom: 20px;
+    margin-left: 420px;
+    margin-right: 30px;
+    padding: 40px;
+    height: 500px;
+    width: 45%;
+    display:center;
+    vertical-align: middle;
+    background-image:url(../images/shanti-stupta-leh1.jpg);
+    background-size: cover;
+ }
+ .box28{
+    color:red;
+    font-size: 50px;
+    text-align: center;
+    border: 7px solid #000;
+    margin-top:20px; 
+    margin-bottom: 20px;
+    margin-left: 420px;
+    margin-right: 30px;
+    padding: 40px;
+    height: 500px;
+    width: 45%;
+    display:center;
+    vertical-align: middle;
+    background-image:url(../images/nubra-valley\ 1.jpg);
+    background-size: cover;
+ }
+ .box29{
+    color:red;
+    font-size: 50px;
+    text-align: center;
+    border: 7px solid #000;
+    margin-top:20px; 
+    margin-bottom: 20px;
+    margin-left: 420px;
+    margin-right: 30px;
+    padding: 40px;
+    height: 500px;
+    width: 45%;
+    display:center;
+    vertical-align: middle;
+    background-image:url(../images/namgyal\ tsemo.jpg);
+    background-size: cover;
+ }
+ .box30{
+    color:red;
+    font-size: 50px;
+    text-align: center;
+    border: 7px solid #000;
+    margin-top:20px; 
+    margin-bottom: 20px;
+    margin-left: 420px;
+    margin-right: 30px;
+    padding: 40px;
+    height: 500px;
+    width: 45%;
+    display:center;
+    vertical-align: middle;
+    background-image:url(../images/Chadar-Trek.jpg);
+    background-size: cover;
+ } 
